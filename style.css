@@ -1,0 +1,80 @@
+body {
+	/*background-image: url("images/skulls.png")*/
+	font-family: "Gudea";
+}
+
+#topMenu {
+	position: fixed;
+	font-family: "Cabin Sketch";
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 5%;
+	background-color: #E08283;
+	opacity: .8;
+	text-align: right;
+	padding-top: .5%;
+}
+h1 {}
+.top {
+	display: inline;
+	margin-right: 5%;
+	color: #fff;
+
+}
+#mainContainer {
+
+
+}
+
+#name {
+	color: #34495E;
+	font-family: "Cabin Sketch";
+	vertical-align: middle;
+	width: 110%;
+
+	padding-top: 2%;
+	padding-bottom: 1%;
+	text-align: center;
+	
+}
+h1 {
+	margin-right: 5%;
+	letter-spacing: .5em;
+	font-size: 4em;
+	vertical-align: middle;
+}
+#picMe {
+	margin-top: 2%;
+
+}
+#about {
+	color: #34495E;
+	font-weight: 600;
+	
+	width: 100%;
+	text-align: center;
+
+}
+
+#words {
+	margin-right: 10%;
+	margin-left: 10%;
+	padding-bottom: 2%;
+
+}
+#projects {
+	font-family: "Cabin Sketch";
+	color: #34495E;
+	font-size: 1.5em;
+	letter-spacing: .5em;
+	font-weight: 700;
+	text-align: center;
+}
+.projects {
+	width: 18%;
+}
+
+
+
+
