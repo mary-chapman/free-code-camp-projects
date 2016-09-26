@@ -74,17 +74,26 @@ h1 {
 .projects {
 	width: 18%;
 }
+.placeholder {
+	background-image: url("images/placeholder.png");
+}
 
 #tribute {
 	letter-spacing: .1em;
 	background-image: url("images/tribute_thumbnail.png");
 
+}
+#tributeTitle:hover {
+	color: #E08283;
+}
+#quote {
+	background-image: url("images/quot_thumbnail.png");
+	letter-spacing: .1em;
+}
+#quoteTitle:hover {
+	color: #E08283;
+}
 
-}
-.placeholder {
-	
-	background-image: url("images/placeholder.png");
-}
 .projectThumbnails {
 	display: inline-block;
 	font-size: 12pt;
@@ -97,8 +106,10 @@ h1 {
 	font-size: 2em;
 	margin-top: 5%;
 }
-#tributeTitle:hover {
-	color: #E08283;
+#quoteTitle {
+	color: pink;
+	font-size: 2em;
+	margin-top: 5%;
 }
 .notes {
 	float: left;
