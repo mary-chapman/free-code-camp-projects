@@ -1,0 +1,50 @@
+FCC PROJECT #1: TRIBUTE PAGE
+
+MAIN OBJECTIVES
+- "I can view the tribute page with an image and text"
+- "I can click on a link that will take me to an external website with further information on the topic"
+
+In the past I have created various web pages using HTML and CSS, but I usally either created them from my imagination or from sketches I had made.  This time I decided to create a mock-up in Photoshop before writing any HTML or CSS. I imagine this method would better resemble the workflow in a professional web development environment.  The designer creates the design and layout and from there the developer strives to get as close as possible to the designer's original vision.
+
+I.PREP WORK
+
+Before creating the mockup I collected the information I wanted to include and picked out a color scheme I was happy with from https://coolors.co.  After I was happy with where the wording layout, I collected pictures from the internet and adjusted them appropriately.  This also made it easy to save the exact sizes of the images for the web page.  It is important to adjust the sizes of the pictures before including them in your HTML because this allows for the web pages to load faster.
+
+[mockPic.png]
+
+For the next step I took the original photoshop file and divided it up according to which "divs" I wanted to divide it up into.  I started by making the initial divisions header, subheader, body and footer.  From there I divided these up into further subdivisions.  
+
+[ps_outline.png]
+
+I also included at the bottom of this outline some notes regarding the font, color scheme and where the edited images can be found.   Even though most of this information is currently fresh in my mind and in the current moment it might seem excessive to document, it will be nice to have in case I want to update my work in the future.
+
+[ps_notes.png/ 
+
+II. CODING HTML and CSS 
+
+Before writing the HTML and CSS there is still one piece of prep work I need to accomplish - setting up the project in GitHub.  Now this next step has been a personal internal struggle of mine.  A part of me wants to just start everything and save it to my local drive but through time I am realizing the importance of taking the time to set up projects in GitHub.  A few advantages are (a) employers like to see an active GitHub account and (b) in the longrun, having online access to multiple versions of your projects online is IMPORTANT.  I could write a seperate blogpost on this, but as for now, just trust me on this one.  If you are like me and occassionally forget the terminal commands, here is a good summary - https://pages.github.com/.
+
+OK. Now for the fun part - writing code.  
+
+
+
+
+
+
+
+
+
+
+
+
+LESSONS LEARNED
+
+1. Create a list of the main objectives and make sure you accomplish these goals FIRST (for FCC this would involve the "user stories").  In the middle of the project I realized I wasn't even positive what the user stories (my main objectives) were.  Even though I was happy to see the objectives were relatively simple and I had accomplished them, I realized in the future it is best to make sure the main goals have been accomplished before you add additional features or focus on the design.  After all, you can have an amazing looking app with great functionality but if the client's original request aren't there, then the product is not a success in my opinion.
+
+2. Before getting into coding try and figure out the appropriate amount of prep work to accomplish.  If you are working with a team they will appreciate it and if you end up working on the project in the future, your future self will thank you.
+
+
+
+
+
+

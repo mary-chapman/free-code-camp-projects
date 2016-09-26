@@ -1,0 +1,159 @@
+* {
+	font-family: Courier;
+}
+#header {
+	width: 100%;
+	background-color: #439a86;
+	color: #f2fff2;
+	display: block;
+}
+
+#header1 {
+	background-color: #439a86;
+	width: 100%;
+	float: left;
+}
+
+#headerPic {
+	width: 20%;
+
+
+}
+.title {
+	letter-spacing: .08em;
+	width: 65%;
+	line-height: .7em;
+	/*background-color: pink;*/
+	text-align: right;
+	float:right;
+	font-size: 16vw;
+	padding: 0;
+	margin-top: -.5%;
+	padding-right: 7%;
+	margin-bottom: 0;
+}
+.alan {
+	font-size: 13vw;
+	margin-right: -20px;
+}
+#subheader {
+	clear: both;
+	text-align: center;
+	background-color: #222e50;
+	color: #f2fff2;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+/********** SUB HEADER **********/
+#subTitle {
+	font-size: 2vw;
+
+
+}
+#subDate {
+	font-size: 2vw;
+	font-style: italic;
+}
+
+/********** FACT 1 *************/
+#fact1 {
+	/*background-color: purple;*/
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 15%;
+}
+#pfact1 {
+	font-size: 2vw;
+	float: left;
+	width: 60%;
+	text-align: center;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+#fact1pic {
+	width: 30%;
+}
+
+/********** FACT 2 *************/
+#fact2 {
+	/*background-color: orange;*/
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 15%;
+}
+#pfact2 {
+	font-size: 2vw;
+	text-align: center;
+}
+/********** FACT 3*************/
+#fact3 {
+	/*background-color: green;*/
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 15%;
+}
+#fact3pic {
+	width: 30%;
+	margin-left: 2%;
+}
+#pfact3 {
+	width: 60%;
+	float: right;
+	font-size: 2vw;
+	text-align: center;
+	margin-right: 3%;
+	margin-top: 1%;
+}
+/********** footer *************/
+#footer {
+	width: 60%;
+	font-size: 2vw;
+	/*background-color: yellow;*/
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 15%;
+}
+#body {
+	color: #222e50;
+}
+
+.bigger {
+	font-size: 2.5vw;
+}
+/*
+#fact1 {
+	width: 80%;
+	background-color: orange;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+}
+#divPic1 {
+	width: 30%;
+	display: inline-block;
+
+}
+#fact1pic {
+	width: 100%;
+	display: inline-block;
+
+}
+#pfact1 {
+	background-color: pink;
+	display: inline;
+	width: 65%; 
+	margin-top: 2%;
+	padding-top: 0;
+}
+
+*/
+
+
+
+
+
+
+
