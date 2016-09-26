@@ -75,6 +75,35 @@ h1 {
 	width: 18%;
 }
 
+#tribute {
+	letter-spacing: .1em;
+	background-image: url("images/tribute_thumbnail.png");
 
 
-
+}
+.placeholder {
+	
+	background-image: url("images/placeholder.png");
+}
+.projectThumbnails {
+	display: inline-block;
+	font-size: 12pt;
+	margin-bottom: 5%;
+	width: 200;
+	height: 150;
+}
+#tributeTitle {
+	color: pink;
+	font-size: 2em;
+	margin-top: 5%;
+}
+#tributeTitle:hover {
+	color: #E08283;
+}
+.notes {
+	float: left;
+	color: pink;
+	margin-top: 0;
+	margin-left: 5%;
+	font-size: 1.5em;
+}
