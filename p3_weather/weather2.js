@@ -1,14 +1,11 @@
 //google api key = AIzaSyDQWdgNB4FExQQA0jjgAFM7D0mj1oRgIpw
 
-
-
-
-
 var city = "";
 var region = "";
 var temp;
 console.log(navigator.geolocation);
-/******************* LOCATION INFO ***************************/
+
+/******************* GEOLOCATION INFO ***************************/
 $.getJSON('http://ipinfo.io', function(data){
   city += data.city;
   region += data.region;
@@ -17,13 +14,13 @@ $.getJSON('http://ipinfo.io', function(data){
   if (city.search(" ") > -1) {
 	city = city.replace(/\s/, "+");
 	}
-	/******************* WEATHER INFO ***************************/
+	/******************* WEATHER INFO BASED ON GEOLOCATION ***************************/
 	//URL
 	console.log(city);
-	var urlBeg = "http://api.openweathermap.org/data/2.5/weather?q="; 
+	var urlBeg = "http://api.openweathermap.org/data/2.5/weather?q=";
 	var urlCity = city;
 	var urlUnitsX = "&units="
-	var urlUnits = "imperial";
+	var urlUnits = "imperial&callback=?";
 	var urlAPI = "&APPID=3e3284eaa0c7e6d2c0e05835606a37e9";
 	var URL = urlBeg + urlCity + urlUnitsX + urlUnits + urlAPI;
 	console.log(URL);
@@ -31,6 +28,7 @@ $.getJSON('http://ipinfo.io', function(data){
 	$.getJSON(URL, function(data) {
 		/******************* TEMP ***************************/
 		temp = data.main.temp;
+
 
 		$("#description").html(temp.toFixed() + "&deg;")
 		//METRIC or IMPERIAL
@@ -68,6 +66,7 @@ $.getJSON('http://ipinfo.io', function(data){
 		var desc = data.weather[0].description;
 		//var desc = "clear sky";
 		console.log(desc);
+
 		if (desc === "clear sky") {
 			$("#window").css('background-image', "url('pic/clear_sky.png')");
 		}
@@ -105,15 +104,53 @@ $.getJSON('http://ipinfo.io', function(data){
 			$("#window").css('background-image', "url('pic/light_rain.png')");
 		}
 
-	});//getJSON end
+    /************* CHANGING THE CITY **********************/
+    var URLInput;
 
-	
-	
 
-	
+
+
+
+      $(".search").on("click", function(){
+        var userInput = $(".cityInput").val();
+        var zipBeg = "zip=";
+        var zipEnd = $(".cityInput").val() + ",us";
+        var zip = zipBeg + zipEnd;
+        var zipOrCity;
+
+        if (userInput.match(/\d{5}/)) {
+          zipOrCity = zip;
+        }
+        else {
+          zipOrCity = userInput;
+        }
+
+        URLInput = urlBeg + zipOrCity + urlUnitsX + urlUnits + urlAPI;
+
+        $.getJSON(URLInput, function(data) {
+          var location = data.name + ", " + data.sys.country;
+          $("#city").html(location);
+          var tempInput = data.main.temp;
+          $("#description").html(tempInput.toFixed() + "&deg;")
+
+          /*code for day or night*/
+          var sunset = data.sys.sunset;
+          var time = data.dt;
+          if (time < sunset) {
+            console.log("day");
+          }
+          else {
+            console.log("night");
+          }
+          console.log(zip);
+        });//search button end
+      }); //getJSON (user city) button end
+
+	});//getJSON (geolocation) end
+
+
+
+
 
 });
-
-
-
-
+/************* CHANGING THE CITY **********************/

@@ -7,24 +7,31 @@
 }
 #city {
 	margin-top: 1%;
-	font-size: 2.5em;
+	font-size: 2em;
+	display: inline-block;
 	text-align: center;
 	line-height: 10pt;
 	font-style: italic;
 	font-family: "Cabin Sketch";
+	margin-bottom: 20px;
 }
 #unitBtns {
 	margin-left: 2%;
 }
 #unitBtns #F {
-	
+
 	margin-bottom: 20%;
 	border: 5px solid pink;
 }
 #C {
 	border: 5px solid white;
 }
-button {
+.add {
+	display: inline;
+	margin-right: 3%;
+	padding-top: 15px;
+}
+.flat {
 	display: block;
 	margin-top: 1%;
 }
@@ -59,16 +66,16 @@ button {
 	margin-bottom: 0;
 	display: inline-block;
 	margin-right: 1%;
-	
+
 }
 #unitBtns {
 	margin-top: 1%;
 	display: block;
 	margin-right: 2%;
 	margin-left: auto;
-	text-align: center;	
+	text-align: center;
 	display: inline-block;
-	
+
 }
 #tempContainer{
 	text-align: center;
@@ -79,24 +86,39 @@ button {
 
 }
 #currentContainer {
-	margin-right: 10%;
-	margin-left: 10%;
+	/*background-color: orange;*/
+	text-align: center;
+	margin-right: 30%;
+	margin-left: 30%;
 	margin-top: 1%;
 	padding-top: 2%;
-
 }
 #picContainer {
 	text-align: center;
 	margin-top: 0;
 	padding-top: 0;
-	
+
 }
 #window {
 	position: relative;
 	/*background-image: url("pic/light_rain.png");*/
 }
-
-
+.cityInput {
+	height: 30px;
+	width: 300px;
+	background-color: #e6e6e6;
+	font-family: "Cabin Sketch";
+	font-size: 25px;
+	color: #4d79ff;
+	border: none;
+}
+input:focus{
+    outline: none;
+}
+.search {
+	margin-bottom: -10px;
+	margin-left: 10px;
+}
 /*
 #catPic {
 	text-align: center;

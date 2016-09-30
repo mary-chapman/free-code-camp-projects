@@ -3,17 +3,21 @@
 <html>
 
 <head>
+
 <link rel="stylesheet" href="weather2.css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />-->
 <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Cabin+Sketch">
 
 <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Patrick+Hand+SC">
 </head>
 
 <body>
-	<div id="current container">
-		<h1 id="local">Weather for</h1>
-		<h3 id="city"></h3>
+	<div id="currentContainer">
+		<h1 id="local">Weather for: </h1>
+		<!--<img src="pic/addBtn.png" width=25px class="add"/>-->
+		<h3 id="city"></h3><br />
+		<input type='text' class='cityInput'></input>
+		<img src='pic/search.png' width=35px class='search'>
 	</div>
 
 		<div id="tempContainer">
@@ -22,20 +26,20 @@
 				<button id="F" class="flat">F</button>
 				<button id="C" class="flat">C</button>
 			</div>
-		
 
-			
-		
+
+
+
 		</div>
-		
+
 		<div id="picContainer">
 			<img src="pic/window2.png" id="window"/>
-			
+
 		</div>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
 	<script src="weather2.js"></script>
-	
+
 
 
 </body>
