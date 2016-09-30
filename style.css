@@ -63,6 +63,7 @@ h1 {
 	padding-bottom: 2%;
 
 }
+/****************THUMBNAILS*********************/
 #projects {
 	font-family: "Cabin Sketch";
 	color: #34495E;
@@ -75,64 +76,7 @@ h1 {
 	width: 18%;
 }
 .placeholder {
-	background-image: url("images/placeholder.png");
-}
-
-#tribute {
-	letter-spacing: .1em;
-	background-image: url("images/tribute_thumbnail.png");
-	border: 4px solid #fff;
-}
-#tribute:hover {
-	border: 4px solid #ffe6f2;
-}
-
-#tributeTitle:hover {
-	color: #ffe6f7;
-}
-#quote {
-	background-image: url("images/quot_thumbnail.png");
-	letter-spacing: .1em;
-	border: 4px solid #fff;
-}
-#quote:hover {
-	border: 4px solid #ffe6f2;
-}
-#quoteTitle:hover {
-	color: #ffe6f7;
-}
-#weather {
-	background-image: url("images/weatherThumbnail.png");
-	letter-spacing: .1em;
-	border: 4px solid white;
-}
-#weather:hover {
-	border: 4px solid #ffe6f2;
-}
-#weatherTitle {
-	color: pink;
-	font-size: 2em;
-	margin-top: 5%;
-}
-#weatherTitle:hover {
-	color: #ffe6f7;
-}
-#wiki {
-	background-image: url("images/wikiThumbnail.png");
-	letter-spacing: .1em;
-	border: 4px solid white;
-}
-#wiki:hover {
-	border: 4px solid #ffe6f2;
-}
-#wikiTitle {
-	color: pink;
-	font-size: 2em;
-	margin-top: 5%;
-	padding-top: 1em;
-}
-#wikiTitle:hover {
-	color: #ffe6f7;
+	background-image: url("images/save.jpg");
 }
 .projectThumbnails {
 	display: inline-block;
@@ -140,21 +84,48 @@ h1 {
 	margin-bottom: 5%;
 	width: 200;
 	height: 150;
+	letter-spacing: .1em;
+	background-image: url("images/save.jpg");
+	border: 4px solid #fff;
 }
-#tributeTitle {
-	color: pink;
-	font-size: 2em;
-	margin-top: 5%;
+.projectThumbnails:hover {
+	border: 4px solid #ffe6f2;
 }
-#quoteTitle {
-	color: pink;
-	font-size: 2em;
-	margin-top: 5%;
-}
-
 .titles {
 	padding-top: 1em;
+	color: pink;
+	font-size: 2em;
+	margin-top: 5%;
 }
+.titles:hover {
+	color: #ffe6f2;
+}
+#weatherTitle:hover {
+	color: #ffe6f7;
+}
+
+#wiki:hover {
+	border: 4px solid #ffe6f2;
+}
+#wikiTitle {
+	margin-top: 5%;
+	padding-top: 1em;
+}
+#tribute {
+	background-image: url("images/tribute_thumbnail.png");
+}
+#quote {
+	background-image: url("images/quot_thumbnail.png");
+}
+#weather {
+	background-image: url("images/weatherThumbnail.png");
+}
+#wiki {
+	background-image: url("images/wikiThumbnail.png");
+}
+
+
+
 .notes {
 	float: left;
 	color: pink;

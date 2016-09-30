@@ -15,12 +15,13 @@ $.getJSON('http://ipinfo.io', function(data){
   $("#city").append(city + ', ' + region);
   //to remove the blank space if city is two words
   if (city.search(" ") > -1) {
-	city = city.replace(/\s/, "");
+	city = city.replace(/\s/, "+");
 	}
 	/******************* WEATHER INFO ***************************/
 	//URL
+	console.log(city);
 	var urlBeg = "http://api.openweathermap.org/data/2.5/weather?q="; 
-	var urlCity = "newyork";
+	var urlCity = city;
 	var urlUnitsX = "&units="
 	var urlUnits = "imperial";
 	var urlAPI = "&APPID=3e3284eaa0c7e6d2c0e05835606a37e9";
@@ -83,6 +84,9 @@ $.getJSON('http://ipinfo.io', function(data){
 			$("#window").css('background-image', "url('pic/showered_rain.png')");
 		}
 		if (desc === "rain") {
+			$("#window").css('background-image', "url('pic/rain.png')");
+		}
+		if (desc === "heavy intensity rain") {
 			$("#window").css('background-image', "url('pic/rain.png')");
 		}
 		if (desc === "thunderstorm") {
