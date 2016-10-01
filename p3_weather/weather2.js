@@ -6,14 +6,14 @@ var temp;
 console.log(navigator.geolocation);
 
 /******************* GEOLOCATION INFO ***************************/
-$.getJSON('http://ipinfo.io', function(data){
+$.getJSON('https://ipinfo.io/', function(data){
   city += data.city;
   region += data.region;
   $("#city").append(city + ', ' + region);
   //to remove the blank space if city is two words
-  if (city.search(" ") > -1) {
+  /*if (city.search(" ") > -1) {
 	city = city.replace(/\s/, "+");
-	}
+}
 	/******************* WEATHER INFO BASED ON GEOLOCATION ***************************/
 	//URL
 	console.log(city);

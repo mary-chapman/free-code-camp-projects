@@ -1,4 +1,4 @@
- 
+
         /*
         var urlBeg = "http://en.wikipedia.org/w/api.php?action=parse&format=json&prop=text&section=0&text=";
         var urlInput = "Jimi_Hendrix";
@@ -15,7 +15,7 @@ $(document).ready(function(){
         $.ajax({
             type: "GET",
 
-            url: 'http://en.wikipedia.org/w/api.php',
+            url: 'https://en.wikipedia.org/w/api.php',
             data: { action: 'query',  list: 'search', srsearch: userInput, srprop: "snippet", format: 'json' },
             dataType: 'jsonp',
             success: function (data, textStatus, jqXHR) {
@@ -43,8 +43,3 @@ $(document).ready(function(){
         });//ajax end
     });
 });//ready function end
-
-
-
-
-

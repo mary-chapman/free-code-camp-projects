@@ -47,13 +47,38 @@
 /********** SUB HEADER **********/
 #subTitle {
 	font-size: 2vw;
-
-
 }
 #subDate {
 	font-size: 2vw;
-	font-style: italic;
+	font-family: Lobster;
+	background-color: #e8e894;
+	text-align: center;
+	margin-left: 45%;
+	margin-right: 45%;
+	margin-top: 0;
+	color: #222e50;
 }
+#subDate.sticky {
+	position: fixed;
+ 	top: 0;
+	left: 50%;
+	left: 0;
+	right: 0;
+	background-color: #e8e894;
+	text-align: center;
+	margin-left: 45%;
+	margin-right: 45%;
+	color: #222e50;
+}
+
+#date {
+	background-color: yellow;
+	text-align: center;
+	margin-left: 45%;
+	margin-right: 45%;
+
+}
+/********** DATE *************/
 
 /********** FACT 1 *************/
 #fact1 {
@@ -123,6 +148,10 @@
 .bigger {
 	font-size: 2.5vw;
 }
+#subDate {
+	text-align: center;
+}
+
 /*
 #fact1 {
 	width: 80%;
@@ -144,16 +173,9 @@
 #pfact1 {
 	background-color: pink;
 	display: inline;
-	width: 65%; 
+	width: 65%;
 	margin-top: 2%;
 	padding-top: 0;
 }
 
 */
-
-
-
-
-
-
-
