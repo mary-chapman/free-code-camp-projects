@@ -23,7 +23,7 @@ $(document).ready(function(){
                 $("#links").empty();
                 for (var i = 0; i < data.query.search.length; i++) {
                     var search = data.query.search;
-                    var link = "http://en.wikipedia.org/wiki/" + data.query.search[i].title;
+                    var link = "https://en.wikipedia.org/wiki/" + data.query.search[i].title;
                     $("#links").append('<a href="' + link  + '"><li class="eachLink"><span class = "title">' + search[i].title + '</span><span class="search">' + ' ' + '</li></a>');
                     /**************** WITH TITLE ********************/
                     //$("#links").append('<a href="' + link  + '"><li class="eachLink"><span class = "title">' + search[i].title + '</span><span class="search">' + ' ' + search[i].snippet + '</li></a>');
@@ -40,6 +40,6 @@ $(document).ready(function(){
             },
             error: function (errorMessage) {
             }
-        });//ajax end
+        }, jsonp);//ajax end
     });
 });//ready function end
