@@ -144,9 +144,9 @@ $.getJSON('https://ipinfo.io/', function(data){
           }
           console.log(zip);
         });//search button end
-      }); //getJSON (user city) button end
+      }, json-p); //getJSON (user city) button end
 
-	});//getJSON (geolocation) end
+	}, json-p);//getJSON (geolocation) end
 
 
 
