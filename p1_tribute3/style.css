@@ -1,21 +1,21 @@
 * {
   font-family: "Share Tech Mono";
+
+}
+body {
+  color: #222e50;
 }
 
-#title {
-  font-size: 13vh;
-  text-align: center;
-  margin-top: 5%;
-}
 .bigger {
   font-size: 1.2em;
   font-weight: 800;
 }
-
-#subtitle {
-  font-size: 4vh;
+#header {
   text-align: center;
-  padding-bottom: 0;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+#titlePic {
 
 }
 
@@ -25,15 +25,20 @@
 
 #date {
   position: relative;
-  margin-left: 45%;
-  margin-right: 45%;
-  background-color: yellow;
+  margin-left: 46.5%;
+  margin-right: 46.5%;
+  background-color: #E9D985;
   padding-top: 0;
   margin-top: 0;
   margin-bottom: 0;
   font-family: Lobster;
   font-size: 1.5em;
+
   /*border: 2px solid black;*/
+}
+#dateSection2 {
+  width: 49%;
+  color: #fff;
 }
 
 #left {
@@ -41,9 +46,13 @@
   z-index: -2;
   margin-top: 0;
   padding-top: 0;
-  border-right: 2px solid black;
+  border-right: 2px solid #222e50;
   width: 49%;
-  height: 4825px;
+  /*height: 900%;*/
+  height: 4100px;
+}
+.stop {
+  display: none;
 }
 .stick {
 
@@ -55,10 +64,11 @@
 
 }
 .factMargin {
-  margin-top: 50px;
+  margin-top: 64px;
 
 }
 .fact1 {
+
   margin-bottom: 400px;
   text-align: right;
 }
@@ -172,7 +182,7 @@
 .fact6 {
   clear: both;
   width: 40%;
-  margin-bottom: 20%;
+  margin-bottom: 10%;
   float: right;
   margin-right: 5%;
 }
@@ -195,7 +205,7 @@
   width: 40%;
   margin-top: 10%;
   margin-left: 5%;
-  margin-bottom: 200px;
+  margin-bottom: 10%;
 }
 #fact7Pic {
   margin-left: 20%;
@@ -212,7 +222,7 @@
   clear: both;
   float: right;
   width: 40%;
-  margin-bottom: 10%;
+  margin-bottom: 8%;
   margin-right: 5%;
 
 }
@@ -249,27 +259,12 @@
     font-size: .8em;
   }
 }
-/*
-#endPoint {
-    display: block;
-    width: 25px;
-    height: 25px;
-    background-color: yellow;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 50%;
-    border: 2px solid black;
-}
-*/
+
 .stop {
-  color: pink;
   display: none;
 }
-#readMore {
-  margin-top: 700px;
-}
 
-#test {
-  margin-top: 500px;
+#readMore {
+  clear: both;
   text-align: center;
 }

@@ -3,9 +3,9 @@ var dateFromTop = $("#date").offset().top;
 //to get date to stick after scrolling past the header
 $(window).scroll(function() {
   //added 5 because when date becomes "fixed", it is ignored by other elements
-  $("#dateSection").toggleClass('stick', $(window).scrollTop() + 5>  dateFromTop);
-  $(".facts").toggleClass('factMargin', $(window).scrollTop() + 5> dateFromTop);
-  //$("#dateSection").toggleClass('stop', $("#date").offset().top +10> $("#endPoint").position().top);
+  $("#dateSection").toggleClass('stick', $(window).scrollTop() +2>  dateFromTop);
+  $(".facts").toggleClass('factMargin', $(window).scrollTop() +2> dateFromTop);
+  //$("#left").toggleClass('stop', $("#date").offset().top > $("#fact9Para").position().top);
 });
 
 $(window).scroll(function() {
