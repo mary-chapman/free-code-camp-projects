@@ -130,6 +130,19 @@ h1 {
 #tributeGH {
 	background: url("images/gh_btn.png");
 }
+
+.projectThumbnails {
+	cursor:pointer;
+}
+
+.notes {
+	float: left;
+	color: pink;
+	margin-top: 0;
+	margin-left: 5%;
+	font-size: 1.5em;
+}
+/*************GITHUB BUTTONS****************/
 .gh_btn1 {
 	float: left;
 }
@@ -143,15 +156,4 @@ h1 {
 .gh_hover2 {
 	float: left;
 	display: none;
-}
-.projectThumbnails {
-	cursor:pointer;
-}
-
-.notes {
-	float: left;
-	color: pink;
-	margin-top: 0;
-	margin-left: 5%;
-	font-size: 1.5em;
 }
