@@ -51,11 +51,21 @@ button {
 	font-weight: 800;
 	color: #F5FFc6;
 }
+button:focus {
+	outline: 0;
+}
 
 img {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	opacity: .5;
+}
+img:hover {
+	opacity: .8;
+}
+img:active {
+	opacity: 1;
 }
 #pic:hover {
 	cursor: hand;
