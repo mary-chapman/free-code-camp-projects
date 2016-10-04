@@ -1,4 +1,5 @@
 //google api key = AIzaSyDQWdgNB4FExQQA0jjgAFM7D0mj1oRgIpw
+//wunderground key = 64bc356c51373c14
 
 var city = "";
 var region = "";
@@ -23,17 +24,12 @@ $.getJSON('https://ipinfo.io/', function(data){
 	var urlUnits = "imperial&callback=?";
 	var urlAPI = "&APPID=3e3284eaa0c7e6d2c0e05835606a37e9&callback=?";
 	var URL = urlBeg + urlCity + urlUnitsX + urlUnits + urlAPI;
-	console.log(URL);
-
-  //to get the WEATHER INFO
-	$.ajax({
-    type: "GET",
-    url: URL,
-    dataType: "jsonp",
-    success: function(data) {
-      console.log(data);
-    }
-  });//ajax open weather info end
-
-
-});//get JSON geolocation end
+  var URL2 = "https://api.wunderground.com/api/64bc356c51373c14/conditions/q/CA/San_Francisco.json";
+  //console.log(URL);
+	//to get the WEATHER INFO
+	$.getJSON(URL2, function(data) {
+      console.log(URL2);
+  });
+		/******************* TEMP ***************************/
+});
+/************* CHANGING THE CITY **********************/
