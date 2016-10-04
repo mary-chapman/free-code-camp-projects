@@ -23,6 +23,12 @@ button {
 	margin-right: 10%;
 	margin-left: 10%;
 }
+@media (max-width:600px) {
+	#quote {
+		margin-right: 2%;
+		margin-left: 2%;
+	}
+}
 .flat {
 	background: #26C281;
 	text-shadow: -1px 1px #417cb8;

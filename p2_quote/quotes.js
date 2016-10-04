@@ -31,7 +31,7 @@ $.getJSON("https://raw.githubusercontent.com/simplyianm/motivate/master/quotes.j
 
 
 	$('#pic').on('click', function() {
-		var url = "https://twitter.com/intent/tweet?text=" + q + '-' + author;
+		var url = "https://twitter.com/intent/tweet?text=" + q + ' -' + author;
 		window.open(url, '_blank');
 	});
 

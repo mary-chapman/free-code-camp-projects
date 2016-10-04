@@ -21,7 +21,7 @@ $.getJSON('https://ipinfo.io/', function(data){
 	var urlCity = city;
 	var urlUnitsX = "&units="
 	var urlUnits = "imperial&callback=?";
-	var urlAPI = "&APPID=3e3284eaa0c7e6d2c0e05835606a37e9";
+	var urlAPI = "&APPID=3e3284eaa0c7e6d2c0e05835606a37e9&callback=?";
 	var URL = urlBeg + urlCity + urlUnitsX + urlUnits + urlAPI;
 	console.log(URL);
 	//to get the WEATHER INFO
@@ -144,9 +144,9 @@ $.getJSON('https://ipinfo.io/', function(data){
           }
           console.log(zip);
         });//search button end
-      }, json-p); //getJSON (user city) button end
+      }); //getJSON (user city) button end
 
-	}, json-p);//getJSON (geolocation) end
+	});//getJSON (geolocation) end
 
 
 
