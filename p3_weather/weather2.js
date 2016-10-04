@@ -18,12 +18,7 @@ $.getJSON('https://ipinfo.io/', function(data){
 	/******************* WEATHER INFO BASED ON GEOLOCATION ***************************/
 	//URL
 	console.log(city);
-	var urlBeg = "http://api.openweathermap.org/data/2.5/weather?q=";
-	var urlCity = city;
-	var urlUnitsX = "&units="
-	var urlUnits = "imperial&callback=?";
-	var urlAPI = "&APPID=3e3284eaa0c7e6d2c0e05835606a37e9&callback=?";
-	var URL = urlBeg + urlCity + urlUnitsX + urlUnits + urlAPI;
+
   var URL2 = "https://api.wunderground.com/api/64bc356c51373c14/conditions/q/CA/San_Francisco.json";
   //console.log(URL);
 	//to get the WEATHER INFO
