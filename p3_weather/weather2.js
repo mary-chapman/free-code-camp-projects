@@ -19,11 +19,11 @@
     console.log(urlCity);
 
     $.getJSON(urlCity, function(data) {
-        var condition = data.current_observation.display_location.city;
         //display TEMPERATURE
         var temp_f = data.current_observation.temp_f.toFixed();
         var temp_c = data.current_observation.temp_c.toFixed();
         $("#description").html('<p>' + temp_f + '&deg</p>');
+        //to change UNITS of temperature
         $("#C").on("click", function() {
             $("#description").html('<p>' + temp_c + '&deg</p>');
             $("#C").css("border", "5px solid pink");
@@ -32,10 +32,13 @@
         $("#F").on("click", function() {
             $("#description").html('<p>' + temp_f + '&deg</p>');
             $("#F").css("border", "5px solid pink");
-            $("#C").css("border", "none");          
+            $("#C").css("border", "none");
         });
-        console.log("CURRENT TEMP " + data.current_observation.temp_c);
-        console.log("CURRENT TEMP " + data.current_observation.weather);
+        //display ICON
+        var iconURL = data.current_observation.icon_url;
+        console.log(iconURL);
+        $("#icon").html("<img src=" + iconURL + ">")
+
     });//getJSON data end
 
 });//getJSON IP data end
