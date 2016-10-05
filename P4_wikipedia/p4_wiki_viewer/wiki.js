@@ -40,6 +40,6 @@ $(document).ready(function(){
             },
             error: function (errorMessage) {
             }
-        }, jsonp);//ajax end
+        });//ajax end
     });
 });//ready function end
