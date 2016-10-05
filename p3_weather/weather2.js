@@ -1,30 +1,41 @@
 //google api key = AIzaSyDQWdgNB4FExQQA0jjgAFM7D0mj1oRgIpw
 //wunderground key = 64bc356c51373c14
 
-var city = "";
-var region = "";
-var temp;
-console.log(navigator.geolocation);
+//IP ADDRESS
+  var urlIp = "https://api.wunderground.com/api/64bc356c51373c14/geolookup/q/autoip.json";
+  var currentCity;
+  $.getJSON(urlIp, function(data) {
+    currentCity = data.location.city;
+    currentState = data.location.state;
+    $("#city").text(currentCity + ", " + currentState);
+    if (currentCity.search(/\s/) > -1) {
+        currentCity = currentCity.replace(/\s/, "_");
+    }
+   //WEATHER CONDITION
+    var urlCityPart1 = "https://api.wunderground.com/api/64bc356c51373c14/conditions/q/";
+    var urlCityPart2 = currentState + '/' + currentCity;
+    var urlCityPart3 = ".json";
+    var urlCity = urlCityPart1 + urlCityPart2 + urlCityPart3;
+    console.log(urlCity);
 
-/******************* GEOLOCATION INFO ***************************/
-$.getJSON('https://ipinfo.io/', function(data){
-  city += data.city;
-  region += data.region;
-  $("#city").append(city + ', ' + region);
-  //to remove the blank space if city is two words
-  /*if (city.search(" ") > -1) {
-	city = city.replace(/\s/, "+");
-}
-	/******************* WEATHER INFO BASED ON GEOLOCATION ***************************/
-	//URL
-	console.log(city);
+    $.getJSON(urlCity, function(data) {
+        var condition = data.current_observation.display_location.city;
+        //display TEMPERATURE
+        var temp_f = data.current_observation.temp_f.toFixed();
+        var temp_c = data.current_observation.temp_c.toFixed();
+        $("#description").html('<p>' + temp_f + '&deg</p>');
+        $("#C").on("click", function() {
+            $("#description").html('<p>' + temp_c + '&deg</p>');
+            $("#C").css("border", "5px solid pink");
+            $("#F").css("border", "none");
+        });
+        $("#F").on("click", function() {
+            $("#description").html('<p>' + temp_f + '&deg</p>');
+            $("#F").css("border", "5px solid pink");
+            $("#C").css("border", "none");          
+        });
+        console.log("CURRENT TEMP " + data.current_observation.temp_c);
+        console.log("CURRENT TEMP " + data.current_observation.weather);
+    });//getJSON data end
 
-  var URL2 = "https://api.wunderground.com/api/64bc356c51373c14/conditions/q/CA/San_Francisco.json";
-  //console.log(URL);
-	//to get the WEATHER INFO
-	$.getJSON(URL2, function(data) {
-      console.log(URL2);
-  });
-		/******************* TEMP ***************************/
-});
-/************* CHANGING THE CITY **********************/
+});//getJSON IP data end
