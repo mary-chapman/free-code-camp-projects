@@ -23,6 +23,9 @@ h1 {
 	font-family: "McLaren";
 	font-weight: 800;
 }
+@media (min-width:500px) {
+
+}
 #input {
 	color: black;
 	margin-top:;
@@ -88,12 +91,9 @@ li {
 	margin-left: 35%;*/
 	border: 4px solid #373f51;
 	background-color: #FFF;
-	
+
 }
 
 .linkHover {
 	background-color: #FFEBCD;
 }
-
-
-
