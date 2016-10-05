@@ -130,6 +130,9 @@ h1 {
 #tributeGH {
 	background: url("images/gh_btn.png");
 }
+#calc {
+	background: url("images/calcThumbnail.png");
+}
 
 .projectThumbnails {
 	cursor:pointer;
@@ -168,6 +171,13 @@ h1 {
 	float: left;
 }
 .gh_hover4 {
+	float: left;
+	display: none;
+}
+.gh_btn5 {
+	float: left;
+}
+.gh_hover5 {
 	float: left;
 	display: none;
 }
