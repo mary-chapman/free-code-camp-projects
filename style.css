@@ -108,7 +108,7 @@ h1 {
 }
 
 #wiki:hover {
-	border: 4px solid #ffe6f2;
+	color: #ffe6f7;
 }
 #wikiTitle {
 	margin-top: 5%;
@@ -161,6 +161,13 @@ h1 {
 	float: left;
 }
 .gh_hover3 {
+	float: left;
+	display: none;
+}
+.gh_btn4 {
+	float: left;
+}
+.gh_hover4 {
 	float: left;
 	display: none;
 }
