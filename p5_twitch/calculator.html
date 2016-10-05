@@ -1,0 +1,92 @@
+
+
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" type="text/css" />-->
+	<link rel="stylesheet" href="style.css">
+	<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />-->
+<link href="https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet">
+      <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+      <script src="https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Raleway">
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Permanent+Marker
+
+">
+
+</head>
+
+<body>
+
+<div id="fullContainer">
+
+	<div id="container">
+		<h2 class="title">Calculations</h2>
+		<div id="runningTotal"></div>
+		<div id="ans">&nbsp</div>
+		<div id="total" ></div>
+		<table id="calcTable">
+			<tr>
+			<td id="clear">C</td>
+			<td id="openParen">(</td>
+			<td id="closeParen">)</td>
+			<td id="subtract">-</td>
+			</tr>
+			<tr>
+			<td id="_1" class="num">1</td>
+			<td id="_2" class="num">2</td>
+			<td id="_3" class="num">3</td>
+			<td id="divide" class="op">/</td>
+			</tr>
+			<tr>
+			<td id="_4" class="num">4</td>
+			<td id="_5" class="num">5</td>
+			<td id="_6" class="num">6</td>
+			<td id="multiply" class="op">x</td>
+			</tr>
+			<tr>
+			<td id="_7" class="num">7</td>
+			<td id="_8" class="num">8</td>
+			<td id="_9" class="num">9</td>
+			<td id="add" class="op">+</td>
+			</tr>
+			<tr>
+			<td colspan="2" id="_0" class="num">0</td>
+
+			<td id="dec">.</td>
+			<td id="equals">=</td>
+			</tr>
+		</table>
+	</div>
+
+
+
+	<!--PRACTICE-->
+	<div id="arrow">
+		<button class="press">COPY</button>
+		<h4 class="push">Click button to save total</h4>
+	</div>
+	<div id="addBoxContainer">
+
+
+			<!--FOR ADDITION BOX-->
+		<h2 class="title" style="text-align:center">Totals</h2>
+		<div id="addBox">
+		</div>
+
+		<div id="addBoxTotal">
+			<p class="sumTotal">TOTAL: </p>
+			<p id="totalNum" class="x" class="sumTotal">0</p>
+		</div>
+
+	</div>
+</div><!--full container div-->
+
+	<script src="app2.js"></script>
+
+
+
+</body>
+
+</html>

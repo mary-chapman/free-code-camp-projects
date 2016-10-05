@@ -1,0 +1,12 @@
+
+//the equals functions returns the answer however, it goes past the length of the div. 
+//To avoid this I figured out the length of the whole number (the number - the modulus of 1) 
+//I then subtracted this number from the length of the number (you need to convert this to a string first), 
+//once I figured out this number I subtracted it from the length I want (12) to come up with the number I want to round to
+
+
+
+
+another challenge I experienced was working with clones.  This is a jquery method that clones an element.  For this app I appended the clone to a new element.  The problem I had was that every time it copied the number, if there was a number copied before it, it was copied again.  This is when the jquery "removeClass" method became helpful.
+
+the next challenge i had was adding a notes button.  the first time I tried, I had an input button added whenever the add notes button was click. the only problem with this was that whenever it was clicked all of the sections added an input button, while I only wanted one.  In orcer to do this I had to make sure the input was appended to the notes classes creating a child of it.  I then had to do an if statement stating that the input box was only added if the children of the notes button clicked ("this") was less than one.
