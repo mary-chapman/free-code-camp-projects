@@ -75,7 +75,9 @@
 	margin-left: auto;
 	text-align: center;
 	display: inline-block;
-
+}
+button:focus {
+	outline: none;
 }
 #tempContainer{
 	text-align: center;
