@@ -133,6 +133,9 @@ h1 {
 #calc {
 	background: url("images/calcThumbnail.png");
 }
+#twitch {
+	background: url("images/twitchThumbnail.png");
+}
 
 .projectThumbnails {
 	cursor:pointer;
@@ -180,4 +183,9 @@ h1 {
 .gh_hover5 {
 	float: left;
 	display: none;
+}
+@media (max-width:500) {
+	.projectThumbnails {
+		display: block;
+	}
 }
