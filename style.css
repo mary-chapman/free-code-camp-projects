@@ -136,6 +136,9 @@ h1 {
 #twitch {
 	background: url("images/twitchThumbnail.png");
 }
+#clock {
+	background: url("images/clockThumbnail.png");
+}
 
 .projectThumbnails {
 	cursor:pointer;
