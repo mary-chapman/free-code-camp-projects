@@ -27,44 +27,37 @@ h1 {}
 
 }
 
-#name {
-	color: #34495E;
-	font-family: "Cabin Sketch";
-	vertical-align: middle;
-	width: 110%;
-
-	padding-top: 2%;
-	padding-bottom: 1%;
-	text-align: center;
-
-}
-h1 {
-	margin-right: 5%;
-	letter-spacing: .5em;
-	font-size: 4em;
-	vertical-align: middle;
-}
 #picMe {
-	margin-top: 2%;
+	width: 17%;
+	margin-left: 20%;
 
+	float: left;
 }
 #about {
 	color: #34495E;
 	font-weight: 600;
-
 	width: 100%;
-	text-align: center;
+	display: inline-block;
+	background-color: #f2f2f2;
+	width: 100%;
+	padding-right: 10%;
 
 }
 
 #words {
-	margin-right: 10%;
-	margin-left: 10%;
+	text-align: right;
+	margin-right: 12%;
+	padding-top: 5%;
 	padding-bottom: 2%;
-
+	display: inline-block;
+	font-size: 1.5em;
+	width: 50%;
+	float: right;
 }
 /****************THUMBNAILS*********************/
-#projects {
+#project {
+	clear: both;
+	padding-top: 10%;
 	font-family: "Cabin Sketch";
 	color: #34495E;
 	font-size: 1.5em;
@@ -73,6 +66,7 @@ h1 {
 	text-align: center;
 }
 .projects {
+
 	width: 18%;
 }
 .placeholder {
@@ -81,7 +75,8 @@ h1 {
 .projectThumbnails {
 	display: inline-block;
 	font-size: 12pt;
-	margin-bottom: 5%;
+	margin-bottom: 1%;
+	margin-right: 5%;
 	width: 200;
 	height: 150;
 	letter-spacing: .1em;
@@ -134,10 +129,16 @@ h1 {
 	background: url("images/calcThumbnail.png");
 }
 #twitch {
-	background: url("images/twitchThumbnail.png");
+	background: url("images/twitchThumbnail2.jpg");
 }
 #clock {
 	background: url("images/clockThumbnail.png");
+}
+#tic {
+	background: url("images/tic.png");
+}
+#simon {
+	background: url("images/simonThumbnail.jpg");
 }
 
 .projectThumbnails {
@@ -187,8 +188,36 @@ h1 {
 	float: left;
 	display: none;
 }
-@media (max-width:500) {
-	.projectThumbnails {
+.gh_btn6 {
+	float: left;
+}
+.gh_hover6 {
+	float: left;
+	display: none;
+}
+.gh_btn7 {
+	float: left;
+}
+.gh_hover7 {
+	float: left;
+	display: none;
+}
+.gh_btn8 {
+	float: left;
+}
+.gh_hover8 {
+	float: left;
+	display: none;
+}
+.gh_btn9 {
+	float: left;
+}
+.gh_hover9 {
+	float: left;
+	display: none;
+}
+@media (max-width: 500) {
+	image {
 		display: block;
 	}
 }
