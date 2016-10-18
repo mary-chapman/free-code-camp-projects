@@ -26,6 +26,11 @@ h1 {}
 	.projectThumbnails, #about, #words, #picMe {
 		display: block;
 	}
+	#picMe, #words {
+		margin: 0;
+		font-size: 1em;
+		display: block;
+	}
 }
 #contactMe {
 	text-align: center;
