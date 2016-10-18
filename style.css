@@ -26,7 +26,24 @@ h1 {}
 
 
 }
-
+#contactMe {
+	text-align: center;
+	padding-bottom: 10%;
+}
+#mail {
+	margin-right: 2%
+}
+#mail:hover, #ghub:hover {
+	-webkit-filter: opacity(60%); /* Chrome, Safari, Opera */
+	filter: opacity(60%);
+}
+#mail:active, #ghub:active {
+	-webkit-filter: grayscale(50%); /* Chrome, Safari, Opera */
+	filter: grayscale(50%);
+}
+#ghub {
+	margin-left: 2%;
+}
 #picMe {
 	width: 17%;
 	margin-left: 20%;
@@ -38,7 +55,7 @@ h1 {}
 	font-weight: 600;
 	width: 100%;
 	display: inline-block;
-	background-color: #f2f2f2;
+	background-color: #e0ebeb;
 	width: 100%;
 	padding-right: 10%;
 
