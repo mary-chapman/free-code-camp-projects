@@ -1,3 +1,43 @@
+@media (max-width:500px) {
+	.projectThumbnails {
+		display: block;
+	}
+	#about {
+		text-align: center;
+	}
+	#picMe {
+		width: 50%;
+		margin: 0;
+		display:block;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	#words {
+		display: block;
+		width: 90%;
+		font-size: 1em;
+		margin-right: auto;
+		margin-left: auto;
+	}
+}
+@media (min-width:500px) {
+#picMe {
+	width: 17%;
+	margin-left: 20%;
+	float: left;
+}
+#words {
+	text-align: right;
+	margin-right: 12%;
+	padding-top: 5%;
+	padding-bottom: 2%;
+	display: inline-block;
+	font-size: 1.5em;
+	width: 50%;
+	float: right;
+}
+}
+
 body {
 	/*background-image: url("images/skulls.png")*/
 	font-family: "Gudea";
@@ -22,16 +62,7 @@ h1 {}
 	color: #fff;
 
 }
-@media (max-width:500px) {
-	.projectThumbnails, #about, #words, #picMe {
-		display: block;
-	}
-	#picMe, #words {
-		margin: 0;
-		font-size: 1em;
-		display: block;
-	}
-}
+
 #contactMe {
 	text-align: center;
 	padding-bottom: 10%;
@@ -50,12 +81,7 @@ h1 {}
 #ghub {
 	margin-left: 2%;
 }
-#picMe {
-	width: 17%;
-	margin-left: 20%;
 
-	float: left;
-}
 #about {
 	color: #34495E;
 	font-weight: 600;
@@ -67,16 +93,7 @@ h1 {}
 
 }
 
-#words {
-	text-align: right;
-	margin-right: 12%;
-	padding-top: 5%;
-	padding-bottom: 2%;
-	display: inline-block;
-	font-size: 1.5em;
-	width: 50%;
-	float: right;
-}
+
 /****************THUMBNAILS*********************/
 #project {
 	clear: both;
