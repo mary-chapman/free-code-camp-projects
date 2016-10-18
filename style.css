@@ -10,7 +10,9 @@
 	#about {
 		text-align: center;
 	}
-
+	#picMe {
+		width: 35%;
+	}
 
 	#headerPic {
 		padding-left: 15%;
@@ -37,6 +39,9 @@
 	#contactMe {
 		margin-bottom: 0;
 	}
+	#picMe {
+		width: 15%;
+	}
 
 
 }
@@ -46,7 +51,7 @@ body {
 	font-family: "Gudea";
 }
 #picMe {
-	width: 15%;
+
 	margin: 0;
 	display:block;
 	margin-right: auto;
