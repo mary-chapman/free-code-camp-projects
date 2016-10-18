@@ -22,9 +22,10 @@ h1 {}
 	color: #fff;
 
 }
-#mainContainer {
-
-
+@media (max-width:500px) {
+	.projectThumbnails, #about, #words, #picMe {
+		display: block;
+	}
 }
 #contactMe {
 	text-align: center;
@@ -232,9 +233,4 @@ h1 {}
 .gh_hover9 {
 	float: left;
 	display: none;
-}
-@media (max-width: 500) {
-	image {
-		display: block;
-	}
 }
