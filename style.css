@@ -22,6 +22,9 @@
 	#contactMe {
 		margin-bottom: 30%;
 	}
+	#words {
+		font-size: 1em;
+	}
 
 }
 @media (min-width:750px) {
@@ -43,7 +46,9 @@
 	#picMe {
 		width: 15%;
 	}
-
+	#words {
+		font-size: 1.5em;
+	}
 
 }
 
@@ -62,7 +67,7 @@ body {
 #words {
 	display: block;
 	width: 90%;
-	font-size: 1.5em;
+
 	text-align: center;
 	margin-right: auto;
 	margin-left: auto;
