@@ -1,0 +1,120 @@
+body {
+  background-color: #353c44;
+}
+#title {
+  font-family: "Chelsea Market";
+  text-align: center;
+  font-size: 2em;
+  color: white;
+  margin-right: 10%;
+}
+#round {
+  text-align: center;
+  margin-right: 10%;
+  font-family: "Chelsea Market";
+  font-size: 1.5em;
+  color: white;
+}
+#message {
+  text-align: center;
+  font-family: "Chelsea Market";
+  font-size: 1.25em;
+  margin-right: 10%;
+  color: #fff;
+  margin-top: 3%;
+}
+#btnContainer {
+  text-align: center;
+  margin-right: 10%;
+  font-family: "Chelsea Market";
+  color: white
+}
+.btn {
+  display: inline-block;
+  background-color: #ffcccc;
+  padding: 2% 1%;
+  border-radius: 50%;
+}
+#start {
+  background-color: #464E87;
+  color:#fff;
+  margin-right: 5%;
+  border: 2px solid #fff;
+}
+#strict {
+  background-color: #A3323B;
+  color: #fff;
+  border: 2px solid #fff;
+
+}
+#restart {
+  background-color: #3e9146;
+  color:#fff;
+  margin-right: 5%;
+  font-size: .75em;
+  padding: 2.5% 1%;
+  border: 2px solid #fff;
+}
+
+#squares {
+  margin-top: 5%;
+  margin-right: 2%;
+  text-align: center;
+
+}
+#green {
+  width: 100px;
+  height: 100px;
+  margin-left:-100px;
+  background-color: #3e9146;
+  border-top-left-radius: 100%;
+  display: inline-block;
+  margin-right: 10px;
+  margin-bottom: 10px;
+
+}
+
+#red {
+  width: 100px;
+  height: 100px;
+  background-color: #A3323B;
+  border-top-right-radius: 100%;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+#yellow {
+  width: 100px;
+  height: 100px;
+  background-color: #FFEa77;
+  border-bottom-left-radius: 100%;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+#blue {
+  width: 100px;
+  height: 100px;
+  background-color: #464E87;
+  border-bottom-right-radius: 100%;
+  display: inline-block;
+}
+
+.bolder {
+  -webkit-filter: saturate(300%); /* Chrome, Safari, Opera */
+  filter: saturate(300%);
+}
+#circle {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  left: -160px;
+  top: -56px;
+  border-radius: 50%;
+
+  background-color: #353c44;
+  display: inline-block;
+}
+.selected {
+  border: 2px solid orange;
+}

@@ -1,0 +1,93 @@
+body {
+  font-family: Farsan;
+  background-image: url("images/skySm.png");
+  color: white;
+  font-weight: 800;
+}
+#title {
+  text-align: center;
+  font-size: 2em;
+}
+#pickOne {
+  /*background-color: green;*/
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#select {
+  margin-left: 32%;
+
+}
+#XO {
+  display: inline-block;
+  margin-right: 5%;
+}
+
+
+#ex, #oh {
+  cursor: pointer;
+}
+
+#container {
+  text-align: center;
+  margin-top: 5%;
+  cursor: pointer;
+}
+.boxes {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  /*background-color: pink;*/
+  text-align: center;
+  margin: 0;
+  font-size: 4em;
+  padding-top: 2%;
+}
+
+#_1, #_4, #_7, #_2, #_5, #_8 {
+  border-right: 6px solid white;
+  margin-right: -.5%;
+}
+#_4, #_5, #_6, #_7, #_8, #_9 {
+  border-top: 5px solid white;
+  border-collapse: collapse;
+}
+.gradient {
+	color: #fff;
+	text-shadow: -2px 2px #346392;
+	background-color: #ff9664;
+	background: -webkit-gradient(linear, left top, left bottom from (#6496c8), to(#346392));
+	background: -webkit-linear-gradient(top, #6496c8, #346392);
+	background: -moz-linear-gradient(top, #6496c8, #346392);
+	background: -ms-linear-gradient(top, #6496c8, #346392);
+	background: -o-linear-gradient(top, #6496c8, #346392);
+	box-shadow:  inset 0 0 0 1px #27496d;
+	border: none;
+	border-radius: 15px;
+}
+.gradient:hover {
+	box-shadow: inset 0 0 0 1px #27496d, 0 5px 15px #193047;
+}
+.gradient:active {
+	box-shadow: inset 0 0 0 1px #27496d, 0 5px 30px #193047;
+}
+#playAgainTie {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  /*background-image: url("images/skySm.png");*/
+  background-color: purple;
+  left: 25%;
+  top: 25%;
+  text-align: center;
+  border: 5px solid white;
+}
+#tieText {
+  font-size: 4em;
+  margin-bottom: 5%;
+}
+#tieButton {
+  font-size: 1.5em;
+  width: 150px;
+  height: 50px;
+}
