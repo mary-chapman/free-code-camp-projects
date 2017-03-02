@@ -2,8 +2,8 @@
 
 These are some of the Free Code Camp projects I completed for the front-end development section.
 
-1. Tribute Page
-![](screenshots/screen-shot-tribute.png)
+## 1. Tribute Page
+<img src="screenshots/screen-shot-tribute.png" width="200px" />
 
 2. Quote Machine
 ![](screenshots/screen-shot-quote.png)
