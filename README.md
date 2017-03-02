@@ -9,10 +9,10 @@ These are some of the Free Code Camp projects I completed for the front-end deve
 <img src="screenshots/screen-shot-quote.png" width="300px" />
 
 ## 3. Weather App
-<img src="screenshots/screen-shot-quote.png" width="300px" />
+<img src="screenshots/screen-shot-weather.png" width="300px" />
 
 ## 4.  Wikipedia Viewer 
-<img src="screenshots/screen-shot-quote.png" width="300px" />
+<img src="screenshots/screen-shot-wikipedia.png" width="300px" />
 
 ## 5. Clock
 <img src="screenshots/screen-shot-clock.png" width="300px" />
