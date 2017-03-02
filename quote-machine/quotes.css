@@ -1,0 +1,78 @@
+body {
+	/*background-image: url("https://hd.unsplash.com/photo-1469212044023-0e55b4b9745a");*/
+	background-image: url("stardust.png");
+	background-size: cover;
+}
+
+button {
+	width: 200px;
+	height: 100px;
+	background-color: pink;
+	color: white;
+	font-size: 2.5em;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 5%;
+	opacity: .8;
+	margin-top: 5%;
+	font-family: "Londrina Shadow";
+
+	}
+#quote {
+	margin-right: 10%;
+	margin-left: 10%;
+}
+@media (max-width:600px) {
+	#quote {
+		margin-right: 2%;
+		margin-left: 2%;
+	}
+}
+.flat {
+	background: #26C281;
+	text-shadow: -1px 1px #417cb8;
+	border: none;
+}
+.flat:hover {
+	background: rgb(0, 177, 106);
+	text-shadow: -1px 1px #27496d;
+	cursor: hand;
+}
+.flat:active {
+	background: #03A678;
+	text-shadow: -1px 1px #193047;
+	border: none;
+}
+
+#buttonDiv {
+	display: block;
+	margin-top: 12%;
+}
+
+#quote p {
+	font-size: 3em;
+	text-align: center;
+	font-family: "Amatic SC";
+	font-weight: 800;
+	color: #F5FFc6;
+}
+button:focus {
+	outline: 0;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	opacity: .5;
+}
+img:hover {
+	opacity: .8;
+}
+img:active {
+	opacity: 1;
+}
+#pic:hover {
+	cursor: hand;
+}

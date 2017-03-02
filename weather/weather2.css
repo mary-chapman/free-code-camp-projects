@@ -1,0 +1,114 @@
+#local {
+	margin-top: .5%;
+	font-size: 4em;
+	text-align: center;
+	margin-bottom: 1%;
+	font-family: "Cabin Sketch";
+}
+#city {
+	margin-top: 1%;
+	font-size: 2em;
+	display: inline-block;
+	text-align: center;
+
+	font-style: italic;
+	font-family: "Cabin Sketch";
+	margin-bottom: 1%;
+}
+#unitBtns {
+	margin-left: 2%;
+}
+#unitBtns #F {
+
+	margin-bottom: 20%;
+	border: 5px solid pink;
+}
+#C {
+	border: 5px solid white;
+}
+.add {
+	display: inline;
+	margin-right: 3%;
+	padding-top: 15px;
+}
+.flat {
+	display: block;
+	margin-top: 1%;
+}
+.flat {
+	background: #80ccff;
+	text-shadow: -1px 1px #417cb8;
+	border: none;
+	width: 50px;
+	height: 40px;
+	text-align: center;
+	border-radius: 20%;
+	color: white;
+	font-size: 1em;
+
+}
+.flat:hover {
+	background: #4db8ff;
+	text-shadow: -1px 1px #27496d;
+	cursor: hand;
+}
+.flat:active {
+	background: #1aa3ff;
+	text-shadow: -1px 1px #193047;
+	border: none;
+}
+#description {
+	font-size: 5em;
+	text-align: center;
+	font-family: "Patrick Hand SC";
+	padding-top: 0;
+	margin-top: -8%;
+	margin-bottom: -8%;
+	display: inline-block;
+	margin-right: 1%;
+
+}
+#unitBtns {
+	margin-top: 1%;
+	display: block;
+	margin-right: 2%;
+	margin-left: auto;
+	text-align: center;
+	display: inline-block;
+}
+button:focus {
+	outline: none;
+}
+#tempContainer{
+	text-align: center;
+	margin-top: 2%;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	margin-bottom: 2%;
+
+}
+#currentContainer {
+	/*background-color: orange;*/
+	text-align: center;
+	margin-right: 30%;
+	margin-left: 30%;
+	margin-top: 1%;
+	padding-top: 2%;
+}
+#picContainer {
+	text-align: center;
+	margin-top: 0;
+	padding-top: 0;
+
+}
+#window {
+	position: relative;
+	/*background-image: url("pic/light_rain.png");*/
+}
+
+#icon {
+	text-align: center;
+}
+img {
+	height: 20%;
+}

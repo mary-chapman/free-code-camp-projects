@@ -1,0 +1,270 @@
+* {
+  font-family: "Share Tech Mono";
+
+}
+body {
+  color: #222e50;
+}
+
+.bigger {
+  font-size: 1.2em;
+  font-weight: 800;
+}
+#header {
+  text-align: center;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+#titlePic {
+
+}
+
+#dateSection {
+  text-align: center;
+}
+
+#date {
+  position: relative;
+  margin-left: 46.5%;
+  margin-right: 46.5%;
+  background-color: #E9D985;
+  padding-top: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Lobster;
+  font-size: 1.5em;
+
+  /*border: 2px solid black;*/
+}
+#dateSection2 {
+  width: 49%;
+  color: #fff;
+}
+
+#left {
+  position: absolute;
+  z-index: -2;
+  margin-top: 0;
+  padding-top: 0;
+  border-right: 2px solid #222e50;
+  width: 49%;
+  /*height: 900%;*/
+  height: 4100px;
+}
+.stop {
+  display: none;
+}
+.stick {
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+
+}
+.factMargin {
+  margin-top: 64px;
+
+}
+.fact1 {
+
+  margin-bottom: 400px;
+  text-align: right;
+}
+#fact1Para {
+
+  width: 35%;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+#fact1Pic {
+  float:left;
+  margin-left: 20%;
+}
+@media (max-width: 600px) {
+  #fact1para {
+    font-size: .8em;
+    margin-left: 10px;
+  }
+  #fact1Pic {
+    margin-left: 0;
+  }
+
+}/*MEDIA END*/
+
+.fact2 {
+  margin-bottom: 600px;
+
+
+}
+#fact2Para {
+  width: 40%;
+  display: inline-block;
+  float: right;
+
+}
+#fact2Pic {
+  float: right;
+  margin-top: 100px;
+  margin-right: -200px;
+  display: inline-block;
+}
+@media (max-width: 1000px) {
+  #fact2Pic {
+    margin-top: 250px;
+  }
+  #fact2Para {
+    width: 45%;
+    font-size: .8em;
+    margin-left: 50px;
+  }
+}
+
+.fact3 {
+  clear: both;
+  width: 40%;
+}
+#fact3Para {
+  text-align: right;
+  float: left;
+}
+#fact3Pic {
+    float: right;
+    margin-right: 20px;
+    width: 50%;
+}
+@media (max-width: 600px) {
+  .fact3 {
+    font-size: .8em;
+  }
+}
+.fact4 {
+  clear: both;
+  width: 40%;
+  margin-bottom: 150px;
+  float: right;
+}
+#fact4Pic {
+  width: 40%;
+}
+@media (max-width: 600px) {
+  .fact4 {
+    font-size: .8em;
+  }
+}
+.fact5 {
+  clear: both;
+  margin-left: 100px;
+  margin-bottom: 10%;
+  float: left;
+
+}
+#fact5Para {
+  margin-top: 10%;
+  width: 40%;
+}
+#fact5Pic {
+  margin-left: 80px;
+  margin-top: 20px;
+}
+@media (max-width: 600px) {
+  .fact5 {
+    font-size: .8em;
+    margin-left: 0;
+  }
+  #fact5Pic {
+    margin-left: 0;
+    margin-top: 20px;
+    width: 50%;
+  }
+}
+.fact6 {
+  clear: both;
+  width: 40%;
+  margin-bottom: 10%;
+  float: right;
+  margin-right: 5%;
+}
+
+#fact6Para {
+  margin-top: 20%;
+
+}
+#fact6Pic {
+  margin-left: 10%;
+}
+@media (max-width: 600px) {
+  .fact6 {
+    font-size: .8em;
+  }
+}
+.fact7 {
+  clear: both;
+  float: left;
+  width: 40%;
+  margin-top: 10%;
+  margin-left: 5%;
+  margin-bottom: 10%;
+}
+#fact7Pic {
+  margin-left: 20%;
+}
+
+#fact7Para {
+}
+@media (max-width: 600px) {
+  .fact7 {
+    font-size: .8em;
+  }
+}
+.fact8 {
+  clear: both;
+  float: right;
+  width: 40%;
+  margin-bottom: 8%;
+  margin-right: 5%;
+
+}
+#fact8Para {
+  margin-top: 20%;
+}
+#fact8Pic {
+  width: 30%;
+  margin-left: 30%;
+}
+@media (max-width: 600px) {
+  .fact8 {
+    font-size: .8em;
+  }
+}
+.fact9 {
+  clear: both;
+  width: 40%;
+  float: left;
+  margin-bottom: 200px;
+  margin-left: 5%;
+  margin-top: 15%;
+}
+
+#fact9Para {
+
+}
+#fact9Pic {
+  margin-left:30%;
+  margin-top: 10%;
+}
+@media (max-width: 600px) {
+  .fact9 {
+    font-size: .8em;
+  }
+}
+
+.stop {
+  display: none;
+}
+
+#readMore {
+  clear: both;
+  text-align: center;
+}
