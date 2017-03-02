@@ -14,3 +14,18 @@ These are some of the Free Code Camp projects I completed for the front-end deve
 
 4.  Wikipedia Viewer 
 ![](screenshots/screen-shot-wikipedia.png)
+
+5. Clock
+![](screenshots/screen-shot-clock.png)
+
+6. Simon
+
+![](screenshots/screen-shot-simon.png)
+
+7.Tic-Tac-Toe
+
+![](screenshots/screen-shot-tic.png)
+
+8. Twitch Viewer
+
+![](screenshots/twitch.png)
