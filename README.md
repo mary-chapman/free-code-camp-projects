@@ -28,4 +28,4 @@ These are some of the Free Code Camp projects I completed for the front-end deve
 
 8. Twitch Viewer
 
-![](screenshots/twitch.png)
+![](screenshots/screen-shot-twitch.png)
