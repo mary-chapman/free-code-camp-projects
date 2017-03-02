@@ -3,29 +3,25 @@
 These are some of the Free Code Camp projects I completed for the front-end development section.
 
 ## 1. Tribute Page
-<img src="screenshots/screen-shot-tribute.png" width="200px" />
+<img src="screenshots/screen-shot-tribute.png" width="300px" />
 
-2. Quote Machine
-![](screenshots/screen-shot-quote.png)
+## 2. Quote Machine
+<img src="screenshots/screen-shot-quote.png" width="300px" />
 
+## 3. Weather App
+<img src="screenshots/screen-shot-quote.png" width="300px" />
 
-3. Weather App
-![](screenshots/screen-shot-weather.png)
+## 4.  Wikipedia Viewer 
+<img src="screenshots/screen-shot-quote.png" width="300px" />
 
-4.  Wikipedia Viewer 
-![](screenshots/screen-shot-wikipedia.png)
+## 5. Clock
+<img src="screenshots/screen-shot-clock.png" width="300px" />
 
-5. Clock
-![](screenshots/screen-shot-clock.png)
+## 6. Simon
+<img src="screenshots/screen-shot-simon.png" width="300px" />
 
-6. Simon
+## 7.Tic-Tac-Toe
+<img src="screenshots/screen-shot-tic.png" width="300px" />
 
-![](screenshots/screen-shot-simon.png)
-
-7.Tic-Tac-Toe
-
-![](screenshots/screen-shot-tic.png)
-
-8. Twitch Viewer
-
-![](screenshots/screen-shot-twitch.png)
+## 8. Twitch Viewer
+<img src="screenshots/screen-shot-twitch.png" width="300px" />
