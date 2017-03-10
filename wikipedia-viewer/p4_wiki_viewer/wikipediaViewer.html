@@ -1,0 +1,47 @@
+
+
+<html>
+
+<head>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="wiki.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=McLaren">
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Shrikhand">
+
+</head>
+
+<body>
+
+
+	
+	<div id="bgContainer">
+		<img src="images/bikeWiki.jpg" id="bg" class="img-responsive" />
+		<!--<img src="images/bikeSmColor.jpg" id="bg" class="img-responsive" />-->
+	</div>
+
+	<div id="textContainer">
+		<h1 id="header">Wikepedia Viewer</h1>
+		<input type="text" id="wikipedia" size="40"></text><br>
+		<button id="search" class="gradient">search</button>
+		<a href="https://en.wikipedia.org/wiki/Special:Random"><button id="randomArticle" class="gradient">random</button></a>
+	</div>
+
+	<div id="test">
+		<div id="article"></div>
+	</div>
+
+	<!--for a list of the searched articles-->
+	<div class="resultsContainer">
+		<ul id="links">
+		</ul>
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+	<script src="wiki.js"></script>
+	
+
+
+</body>
+
+</html>

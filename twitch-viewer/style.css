@@ -1,0 +1,97 @@
+body {
+  font-family: Cambay;
+  font-weight: 700;
+}
+
+#logo {
+  margin-bottom: 5%;
+}
+#container {
+  width: 50%;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 10%;
+}
+.showBtn {
+  margin-right: 5%;
+  margin-left: 5%;
+  display: inline;
+}
+.showBtn:hover {
+  color: green;
+  cursor: pointer;
+}
+/******* TOP 3 BUTTONS ***********/
+#show {
+  padding-top: 3%;
+  font-size: 1em;
+}
+#allBtn {
+  background-color: #e6f5ff;
+  color: blue;
+  padding: 3%;
+  border: 3px solid blue;
+  border-radius: 50%;
+}
+#allBtn:hover {
+  background-color: #b3e0ff;
+}
+#onlineBtn {
+  background-color: #e6ffee;
+  color: green;
+  padding: 3% 3.5%;
+  border: 3px solid green;
+  border-radius: 50%;
+}
+#onlineBtn:hover {
+  background-color:	#b3ffcc;
+
+}
+#offlineBtn {
+  background-color:#ffe6e6;
+  color: red;
+  padding: 3% 2.5%;
+  border: 3px solid red;
+  border-radius: 50%;
+}
+#offlineBtn:hover {
+  background-color: #ffb3b3;
+}
+/******* RESULTS ***********/
+#offlineUsers {
+  margin-top: 3%;
+}
+a {
+  text-decoration: none;
+}
+.off {
+  border: 3px solid red;
+  background-color:#ffe6e6;
+  width: 40%;
+  margin-right: auto;
+  margin-left: auto;
+  color: red;
+  padding: 2%;
+
+}
+.off:hover {
+  background-color: #ffb3b3;
+}
+.on {
+  border: 3px solid green;
+  background-color: #e6ffee;
+  width: 40%;
+  margin-right: auto;
+  margin-left: auto;
+  color: green;
+  padding: 2%;
+
+}
+.on:hover {
+  background-color:	#b3ffcc;
+}
+.deleted {
+  color: grey;
+  font-style: italic;
+}

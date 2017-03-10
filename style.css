@@ -1,0 +1,289 @@
+@media (max-width:750px) {
+	.projectThumbnails {
+		display: block;
+	}
+	#quote, #tribute, #weather, #wiki, #calc, #twitch, #clock, #tic, #simon {
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	#about {
+		text-align: center;
+	}
+	#picMe {
+		width: 35%;
+	}
+
+	#headerPic {
+		padding-left: 15%;
+		padding-right: 15%;
+		margin-top: 30%;
+	}
+	#contactMe {
+		margin-bottom: 30%;
+	}
+	#words {
+		font-size: 1em;
+	}
+
+}
+@media (min-width:750px) {
+	#headerPic {
+		padding-left: 5%;
+		padding-right: 5%;
+		margin-top: 6%;
+	}
+	#contactMe {
+		margin-bottom: 3%;
+	}
+	.projectThumbnails {
+		display: inline;
+	}
+	#quote, #tribute, #weather, #wiki, #calc, #twitch, #clock, #tic, #simon {
+		display: inline-block;
+	}
+
+	#picMe {
+		width: 15%;
+	}
+	#words {
+		font-size: 1.5em;
+	}
+
+}
+
+body {
+	/*background-image: url("images/skulls.png")*/
+	font-family: "Gudea";
+}
+#picMe {
+
+	margin: 0;
+	display:block;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 3%;
+}
+#words {
+	display: block;
+	width: 90%;
+
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	padding-bottom: 3%;
+}
+#topMenu {
+	position: fixed;
+	font-family: "Cabin Sketch";
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 5%;
+	background-color: #E08283;
+	opacity: .8;
+	text-align: right;
+	padding-top: .5%;
+}
+h1 {}
+.top {
+	display: inline;
+	margin-right: 5%;
+	color: #fff;
+
+}
+
+#contactMe {
+	text-align: center;
+	padding-bottom: 10%;
+}
+#mail {
+	margin-right: 2%
+}
+#mail:hover, #ghub:hover {
+	-webkit-filter: opacity(60%); /* Chrome, Safari, Opera */
+	filter: opacity(60%);
+}
+#mail:active, #ghub:active {
+	-webkit-filter: grayscale(50%); /* Chrome, Safari, Opera */
+	filter: grayscale(50%);
+}
+#ghub {
+	margin-left: 2%;
+}
+
+#about {
+	color: #34495E;
+	font-weight: 600;
+	width: 100%;
+	display: inline-block;
+	background-color: #e0ebeb;
+	width: 100%;
+	padding-right: 10%;
+
+}
+
+
+/****************THUMBNAILS*********************/
+#project {
+	clear: both;
+	padding-top: 10%;
+	font-family: "Cabin Sketch";
+	color: #34495E;
+	font-size: 1.5em;
+	letter-spacing: .5em;
+	font-weight: 700;
+	text-align: center;
+	margin-bottom: 20%;
+}
+.projects {
+
+	width: 18%;
+}
+.placeholder {
+	background-image: url("images/save.jpg");
+}
+.projectThumbnails {
+	display: inline-block;
+	font-size: 12pt;
+	margin-bottom: 1%;
+	margin-right: 5%;
+	width: 200;
+	height: 150;
+	letter-spacing: .1em;
+	background-image: url("images/save.jpg");
+	border: 4px solid #fff;
+}
+/*
+.projectThumbnails:hover {
+	border: 4px solid #ffe6f2;
+}
+*/
+.titles {
+	padding-top: 1em;
+	color: pink;
+	font-size: 2em;
+	margin-top: 5%;
+
+}
+.titles:hover {
+	color: #ffe6f2;
+}
+#weatherTitle:hover {
+	color: #ffe6f7;
+}
+
+#wiki:hover {
+	color: #ffe6f7;
+}
+#wikiTitle {
+	margin-top: 5%;
+	padding-top: 1em;
+}
+
+#tribute {
+	background-image: url("images/tributeThumbnail.png");
+}
+#quote {
+	background-image: url("images/quot_thumbnail.png");
+}
+#weather {
+	background-image: url("images/weatherThumbnail.png");
+}
+#wiki {
+	background-image: url("images/wikiThumbnail.png");
+}
+#tributeGH {
+	background: url("images/gh_btn.png");
+}
+#calc {
+	background: url("images/calcThumbnail.png");
+}
+#twitch {
+	background: url("images/twitchThumbnail2.jpg");
+}
+#clock {
+	background: url("images/clockThumbnail.png");
+}
+#tic {
+	background: url("images/tic.png");
+}
+#simon {
+	background: url("images/simonThumbnail.jpg");
+}
+
+.projectThumbnails {
+	cursor:pointer;
+}
+
+.notes {
+	float: left;
+	color: pink;
+	margin-top: 0;
+	margin-left: 5%;
+	font-size: 1.5em;
+}
+/*************GITHUB BUTTONS****************/
+.gh_btn1 {
+	float: left;
+}
+.gh_hover1 {
+	float: left;
+	display: none;
+}
+.gh_btn2 {
+	float: left;
+}
+.gh_hover2 {
+	float: left;
+	display: none;
+}
+.gh_btn3 {
+	float: left;
+}
+.gh_hover3 {
+	float: left;
+	display: none;
+}
+.gh_btn4 {
+	float: left;
+}
+.gh_hover4 {
+	float: left;
+	display: none;
+}
+.gh_btn5 {
+	float: left;
+}
+.gh_hover5 {
+	float: left;
+	display: none;
+}
+.gh_btn6 {
+	float: left;
+}
+.gh_hover6 {
+	float: left;
+	display: none;
+}
+.gh_btn7 {
+	float: left;
+}
+.gh_hover7 {
+	float: left;
+	display: none;
+}
+.gh_btn8 {
+	float: left;
+}
+.gh_hover8 {
+	float: left;
+	display: none;
+}
+.gh_btn9 {
+	float: left;
+}
+.gh_hover9 {
+	float: left;
+	display: none;
+}
