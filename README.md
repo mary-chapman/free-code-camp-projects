@@ -2,7 +2,7 @@
 
 These are some of the Free Code Camp projects I completed for the front-end development section.
 
-## [1. Tribute Page](https://github.com/mary-chapman/free-code-camp-projects/tree/master/tribute-page)
+## 1. Tribute Page
 <img src="screenshots/screen-shot-tribute-page.png" width="300px" />
 
 ## 2. Quote Machine
